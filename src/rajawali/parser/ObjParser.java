@@ -80,6 +80,10 @@ public class ObjParser extends AMeshParser {
     	super(renderer, fileOnSDCard);
     }
     
+    public ObjParser(RajawaliRenderer renderer,TextureManager textureManager, String fileOnSDCard) {
+    	super(renderer, textureManager, fileOnSDCard);    	
+    }
+    
 	public ObjParser(Resources resources, TextureManager textureManager, int resourceId) {
 		super(resources, textureManager, resourceId);
 	}
